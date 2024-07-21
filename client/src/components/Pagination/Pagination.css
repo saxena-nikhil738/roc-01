@@ -1,0 +1,58 @@
+.category-data ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+}
+.category-data{
+    display: flex;
+    flex-direction: column;
+    gap : 24px;
+    margin-bottom: 10px;
+}
+.category-data label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.category-data input{
+    width: 10px;
+    color: black;
+}
+
+
+/* Hide the default checkbox */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Create a custom checkbox */
+  .custom-checkbox .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    color:white;
+    background-color: #e0dfdf;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+  }
+
+  /* Change the background color when checked */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: black;
+    border: black solid;
+  }
+  
+  /* Style the checkmark/indicator (hidden when not checked) */
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 10px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }

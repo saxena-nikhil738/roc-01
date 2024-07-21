@@ -1,0 +1,29 @@
+.form-cat-parent{
+    border: 1px rgb(217, 217, 217) solid;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 16px;
+    gap: 10px;
+}
+.form-cat{
+    padding: 0px 30px 0px;
+    width: 350px;
+}
+.marks{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+.page{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}

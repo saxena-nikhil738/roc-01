@@ -1,0 +1,9 @@
+.offer{
+    background: #f0f0f0;
+    line-height: 30px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}

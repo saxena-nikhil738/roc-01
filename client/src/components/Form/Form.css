@@ -1,0 +1,44 @@
+.form{
+    border: 1px rgb(217, 217, 217) solid;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0 50px;
+    border-radius: 16px;
+    height: 450px;
+}
+.exist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    gap: 5px;
+}
+.login-link{
+    height: 20px;
+    text-decoration: none;
+}
+.create-button{
+    margin-top: 20px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container-f{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    outline: none;
+    width: 300px;
+}
+
+.title{
+    text-align: left;
+    margin-top: 10px;
+}

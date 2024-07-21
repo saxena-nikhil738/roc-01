@@ -1,0 +1,39 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.help{
+    float: right;
+    margin-right: 20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logo{
+    line-height: 50px;
+    width: 15%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.middle{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    width: 15%;
+    float: right;
+    margin-right: 40px;
+}
+.middle li{
+    font-weight: 600;
+}
