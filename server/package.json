@@ -25,6 +25,7 @@
     "Router": "^2.1.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "^8.4.1"
+    "@faker-js/faker": "^8.4.1",
+    "webpack-cli": "^5.1.4"
   }
 }
